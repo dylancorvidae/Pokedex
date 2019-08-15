@@ -2,20 +2,56 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "LMSPokemonMasterSolid";
+    src: url("../fonts/LMSPokemonMasterSolid.ttf");
+}
+
 header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: tomato;
     width: 100vw;
     height: 200px;
+    font-size: 7em;
+    font-family: 'LMSPokemonMasterSolid';
+
+    
 }
 
 .logo {
     object-fit: contain;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height:10vh;
+    background-color: rgba(251, 255, 0, 0.5);
+}
+main{
+    width: 100vw;
+    height: 100vh;
 }
 
 footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     background-color: yellow;
     width: 100vw;
     height: 150px;
+    font-size: 2em;
+    font-family: 'LMSPokemonMasterSolid';
 }
