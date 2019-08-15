@@ -7,6 +7,11 @@
     src: url("../fonts/PokemonHollow.ttf");
 }
 
+@font-face {
+    font-family: "PokemonSolid";
+    src: url("../fonts/PokemonSolid.ttf");
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -23,8 +28,8 @@ header {
 
 .logo {
     object-fit: contain;
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 section {
@@ -34,12 +39,24 @@ section {
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height:10vh;
-    background-color: rgba(251, 255, 0, 0.5);
+    height:30vh;
+    background-color: rgba(68, 68, 68, 0.5);
+    font-family: 'Roboto', sans-serif;
 }
+
+#tools {
+    border-radius: 50%;
+    background-color: white;
+    width:30%;
+    height: 90%;
+    padding: 8% ;
+}
+
 main{
     width: 100vw;
     height: 100vh;
+    /* background-color: rgba(251, 255, 0, 0.5); */
+    background-color: white;
 }
 
 footer {
@@ -52,5 +69,5 @@ footer {
     width: 100vw;
     height: 150px;
     font-size: 2em;
-    font-family: 'LMSPokemonMasterSolid';
+    font-family: 'PokemonSolid';
 }
