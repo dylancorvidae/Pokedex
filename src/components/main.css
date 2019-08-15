@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: tomato;
+    width: 100vw;
+    height: 200px;
+}
+
+.logo {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: yellow;
+    width: 100vw;
+    height: 150px;
+}
