@@ -3,8 +3,8 @@
 }
 
 @font-face {
-    font-family: "LMSPokemonMasterSolid";
-    src: url("../fonts/LMSPokemonMasterSolid.ttf");
+    font-family: "PokemonHollow";
+    src: url("../fonts/PokemonHollow.ttf");
 }
 
 header {
@@ -17,9 +17,8 @@ header {
     width: 100vw;
     height: 200px;
     font-size: 7em;
-    font-family: 'LMSPokemonMasterSolid';
-
-    
+    font-family: 'PokemonHollow';
+    object-fit: contain
 }
 
 .logo {
