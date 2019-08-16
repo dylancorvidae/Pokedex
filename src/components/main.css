@@ -21,20 +21,19 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     background-color: rgb(243, 51, 51);
     width: 100vw;
     height: 25vh;
     object-fit: contain;
-    padding: 2vh;
-    font-family: 'PokemonHollow';
-    font-size: 5vw;
     border: 2px solid black;
+    padding: 2%;
 }
 
 h1{
-    height: 2em;
-    width: auto;
+    font-family: 'PokemonHollow';
+    font-size: 7vw;
+    
 }
 
 .pokeball {
