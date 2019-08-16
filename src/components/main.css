@@ -21,15 +21,19 @@ header {
     background-color: rgb(243, 51, 51);
     width: 100vw;
     height: 25vh;
-    font-size: 10vh;
+    
     font-family: 'PokemonHollow';
     object-fit: contain
 }
 
+h1{
+    font-size: 400%;
+}
+
 .logo {
     object-fit: contain;
-    max-width: 18vw;
-    max-height: auto;
+    max-width: 60%;
+    max-height: 60%;
     margin: 5vw
 }
 
@@ -75,12 +79,12 @@ main{
 footer {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-color: rgb(123, 202, 255);
     width: 100vw;
     height: 150px;
-    font-size: 2em;
+    font-size: 1.8em;
     font-family: 'PokemonSolid';
+    padding: 2vh;
 }
