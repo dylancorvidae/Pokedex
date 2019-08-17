@@ -9,7 +9,7 @@ class PokeCard extends Component {
             <img class="poke-img" src="${pokemon.url_image}" alt="${pokemon.pokemon}">
             <div>
                 <h3>Type:</h3>
-                <p>${pokemon.type_1}grass/${pokemon.type_2}poison</p>
+                <p>${pokemon.type_1}/${pokemon.type_2}</p>
             </div>
         </li>
         `;

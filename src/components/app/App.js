@@ -1,7 +1,7 @@
 import Component from '../Component.js';
-import Header from './Header';
-import Footer from './Footer,js';
-import PokeList from './Poke-List';
+import Header from './Header.js';
+import Footer from './Footer.js';
+import PokeList from './Poke-List.js';
 import pokemonObjects from '../data/pokemon.js';
 
 
@@ -24,7 +24,7 @@ class App extends Component {
 
     renderHTML() {
         return /*HTML*/`
-            <div>
+            
                 <main>
                     <section>
                         <div id="toolball">
@@ -38,7 +38,7 @@ class App extends Component {
                         </div>    
                     </section>
                 </main>
-            </div>
+            
         `;
     }
 }
