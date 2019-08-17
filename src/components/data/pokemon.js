@@ -1,4 +1,4 @@
-const pokemon = [
+const pokemonObjects = [
     {
         '_id': '5cef3501ef6005a77cd4fd16',
         'pokemon': 'venusaur',
@@ -628,4 +628,4 @@ const pokemon = [
     },
 ];
 
-export default pokemon;
+export default pokemonObjects;
