@@ -13,7 +13,6 @@ export function getPokemon(options) {
         // need to fake getting a total page count,
         // pokedex api already gives this back
         .then(results => {
-            console.log(results);
             return {
                 count: 100 * page,
                 results: results

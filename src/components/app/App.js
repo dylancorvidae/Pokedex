@@ -7,6 +7,10 @@ import Paging from '../options/Paging.js';
 import { getPokemon } from '../../../src/services/pokemon-api.js';
 import hashStorage from '../../../src/services/hash-storage.js';
 
+function capitalizeName(name) {
+    const capped = name.charAt(0).toUpperCase() + name.slice(1);
+    return capped;
+}
 
 class App extends Component {
 
@@ -18,10 +22,12 @@ class App extends Component {
         const search = new Search();
         optionsSection.appendChild(search.renderDOM());
 
+        const pageDiv = dom.querySelector('#page-div');
+
         const listSection = dom.querySelector('.list-section');
         
         const paging = new Paging();
-        listSection.appendChild(paging.renderDOM());
+        pageDiv.appendChild(paging.renderDOM());
 
         const pokeList = new PokeList({ pokemons: [] });
         listSection.appendChild(pokeList.renderDOM());
@@ -66,7 +72,9 @@ class App extends Component {
                                     <form class="search-section" >
                                         <!-- search goes here -->
                                     </form>
+                                <div id="page-div">
                                 </div>
+                            </div>
                         </div>    
                     </section>
                     <div class="list-section">
